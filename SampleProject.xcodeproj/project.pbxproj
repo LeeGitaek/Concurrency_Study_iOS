@@ -14,6 +14,9 @@
 		F968D97A29E1DF1700E869FF /* SampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F968D97929E1DF1700E869FF /* SampleProjectTests.swift */; };
 		F968D98429E1DF1700E869FF /* SampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F968D98329E1DF1700E869FF /* SampleProjectUITests.swift */; };
 		F968D98629E1DF1700E869FF /* SampleProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F968D98529E1DF1700E869FF /* SampleProjectUITestsLaunchTests.swift */; };
+		F968D99329E1DF8F00E869FF /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F968D99229E1DF8F00E869FF /* DataModel.swift */; };
+		F968D99529E1E1B400E869FF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F968D99429E1E1B400E869FF /* ViewModel.swift */; };
+		F968D99729E1E25A00E869FF /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F968D99629E1E25A00E869FF /* NetworkProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		F968D97F29E1DF1700E869FF /* SampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F968D98329E1DF1700E869FF /* SampleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProjectUITests.swift; sourceTree = "<group>"; };
 		F968D98529E1DF1700E869FF /* SampleProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F968D99229E1DF8F00E869FF /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		F968D99429E1E1B400E869FF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F968D99629E1E25A00E869FF /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 		F968D96729E1DF1600E869FF /* SampleProject */ = {
 			isa = PBXGroup;
 			children = (
+				F968D99629E1E25A00E869FF /* NetworkProvider.swift */,
+				F968D99229E1DF8F00E869FF /* DataModel.swift */,
+				F968D99429E1E1B400E869FF /* ViewModel.swift */,
 				F968D96829E1DF1600E869FF /* SampleProjectApp.swift */,
 				F968D96A29E1DF1600E869FF /* ContentView.swift */,
 				F968D96C29E1DF1700E869FF /* Assets.xcassets */,
@@ -259,6 +268,9 @@
 			files = (
 				F968D96B29E1DF1600E869FF /* ContentView.swift in Sources */,
 				F968D96929E1DF1600E869FF /* SampleProjectApp.swift in Sources */,
+				F968D99529E1E1B400E869FF /* ViewModel.swift in Sources */,
+				F968D99329E1DF8F00E869FF /* DataModel.swift in Sources */,
+				F968D99729E1E25A00E869FF /* NetworkProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
